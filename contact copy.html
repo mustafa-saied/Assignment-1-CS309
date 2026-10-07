@@ -1,0 +1,97 @@
+// filepath: c:\Users\Lenovo\Desktop\Project\contact copy.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/Stylesheet copy.css">
+</head>
+<body>
+    <header>
+        <h1>Main</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h2>Contact Us</h2>
+
+        <form class="contact-form">
+            <div class="textarea-group">
+                <label for="message">Large text box</label>
+                <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here...">test large text box</textarea>
+            </div>
+
+            <div class="input-group">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" />
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" />
+                </p>
+
+                <p>
+                    <label for="number">Number:</label>
+                    <input type="number" id="number" name="number" placeholder="Enter a number" />
+                </p>
+
+                <p>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" />
+                </p>
+            </div>
+
+            <div class="radio-group">
+                <p>Choose an option:</p>
+                <label>
+                    <input type="radio" name="option" value="button1" />
+                    Button 1
+                </label>
+                <label>
+                    <input type="radio" name="option" value="button2" />
+                    Button 2
+                </label>
+            </div>
+
+            <div class="checkbox-group">
+                <p>Select one or more:</p>
+                <label>
+                    <input type="checkbox" name="checkbox1" value="checkbox1" />
+                    Checkbox 1
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox2" value="checkbox2" />
+                    Checkbox 2
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox3" value="checkbox3" />
+                    Checkbox 3
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox4" value="checkbox4" />
+                    Checkbox 4
+                </label>
+            </div>
+
+            <div class="dropdown-group">
+                <label for="dropdownbox">Dropdown Box:</label>
+                <select id="dropdownbox" name="dropdownbox">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                    <option value="option4">Option 4</option>
+                </select>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

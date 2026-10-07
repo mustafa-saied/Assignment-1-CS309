@@ -1,0 +1,51 @@
+header{
+    color: rgb(217, 255, 0);
+    width: 100%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+main{
+    width: 100%;
+    text-align: center;
+}
+.textarea-group textarea {
+    display: block;
+    width: 75%;
+    height: 120px;
+    margin:  auto;
+    text-align: left;
+}
+.checkbox-group{
+    display: block;
+    justify-content: center;
+    gap: 15px;
+}
+.radio-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 0 auto;
+    width: fit-content;
+}
+    
+table{
+    width: 50%;
+    text-align:center;
+}
+
+body{
+    background-color: rgb(35, 127, 197);
+    color: rgb(143, 215, 224);
+    
+}
+footer{
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/Stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Main</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="textarea-group">
+            <label for="TextArea">Large text box (Textarea)</label>
+            <textarea id="TextArea" name="TextArea" rows="5" cols="10">test large text box</textarea>
+        </div>
+
+        <div class="input-group">  
+            <p>
+                <label title="Enter name" for="name">Name:</label>
+                <input type="text" id="name" name="name" />
+            </p>
+            <p>
+                <label title="Enter Email" for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" />
+            </p>
+            <p>
+                <label title="Enter A Number" for="Number">Number:</label>
+                <input type="number" id="Number" name="Number" />
+            </p>
+            <p>
+                <label title="Enter Date" for="Date">Date:</label>
+                <input type="date" id="Date" name="Date" />
+            </p>
+        </div>
+
+        <div class="radio-group">
+            <input type="radio" id="radio_button_1" name="radio_buttons" value="button 1" />
+            <label for="radio_button_1">button 1</label>
+            <input type="radio" id="radio_button_2" name="radio_buttons" value="button 2" />
+            <label for="radio_button_2">button 2</label>
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1" />
+            <label for="checkbox1">checkbox 1</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2" />
+            <label for="checkbox2">checkbox 2</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox3" />
+            <label for="checkbox3">checkbox 3</label>
+            <input type="checkbox" id="checkbox4" name="checkbox4" value="checkbox4" />
+            <label for="checkbox4">checkbox 4</label>
+        </div>
+
+        <div class="dropdown-group">
+            <label for="dropdownbox">Dropdown Box:</label>        
+            <select id="dropdownbox" name="dropdownbox">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option> 
+                <option value="option3">Option 3</option>
+                <option value="option4">Option 4</option> 
+            </select>
+        </div>
+    </main>
+</body>
+</html>
